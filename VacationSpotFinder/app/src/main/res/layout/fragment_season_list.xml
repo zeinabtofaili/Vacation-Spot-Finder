@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SeasonListFragment"
+    android:background="@color/light_gray"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/travel_ques"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_size"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/vertical_margin"
+        android:layout_marginHorizontal="@dimen/text_padding_horizontal"
+        />
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#D84315"
+        android:text="View Favorite Seasons"
+        android:textAllCaps="false" />
+
+    <ListView
+        android:id="@+id/seasonList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
+

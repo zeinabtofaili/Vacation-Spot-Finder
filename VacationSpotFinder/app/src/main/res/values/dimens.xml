@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_size">25sp</dimen>
+    <dimen name="vertical_margin">5dp</dimen>
+    <dimen name="image_height">160dp</dimen>
+    <dimen name="transparency">.3</dimen>
+    <dimen name="text_bias">.2</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="text_padding_vertical">1dp</dimen>
+    <dimen name="text_padding_horizontal">5dp</dimen>
+    <dimen name="text_radius">5dp</dimen>
+    <dimen name="horizontal_margin_image">10dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="cardView_radius">20dp</dimen>
+    <dimen name="elevation">10dp</dimen>
+    <dimen name="svg_dimen">115dp</dimen>
+    <dimen name="svg_vertical_bias">0.5</dimen>
+    <dimen name="svg_margin_end">24dp</dimen>
+</resources>
